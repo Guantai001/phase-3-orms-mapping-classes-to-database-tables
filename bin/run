@@ -5,3 +5,7 @@ require_relative '../config/environment'
 
 binding.pry
 "pls"
+
+# Now, run the file with ruby bin/run. You should see a pry session with the message "pls" printed to the screen. You can now interact with your program in the pry session. Try creating a new song and saving it to the database. You can also try to find a song by name or id.
+
+Song.create_table
